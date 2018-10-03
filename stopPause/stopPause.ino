@@ -14,7 +14,7 @@ void setup() {
   // initialize the button pin as an input:
   pinMode(buttonPin, INPUT);
   
-  Keyboard.begin();
+  Serial.begin(9600);
 }
 
 
@@ -23,12 +23,12 @@ void loop() {
   buttonState = digitalRead(buttonPin);
   if (buttonState == HIGH) {
     // turn LED on:
-    digitalWrite(ledPin, HIGH);
-    Keyboard.press('a');
-    delay(100);
-    Keyboard.releaseAll();
+    digitalWrite(ledPin, LOW);
+    Serial.println("HURR DURR BUTTON PRESS ");
   } else {
     // turn LED off:
     digitalWrite(ledPin, LOW);
+    digitalWrite(ledPin, HIGH);
+    Serial.println("no press");
   }
 }
