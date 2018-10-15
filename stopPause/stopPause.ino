@@ -2,10 +2,13 @@
 #include <Keyboard.h>
 
 //Set pins
-const int buttonPin = 2;
 const int ledPin = 17;
+const int buttonPin = 2;
 
 int buttonState = 0;
+
+bool lastFrame = false;
+
 
 
 void setup() {
@@ -19,16 +22,23 @@ void setup() {
 
 
 void loop() {
+  
   // read and check state of push button pin
   buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {
-    // turn LED on:
-    digitalWrite(ledPin, LOW);
-    Serial.println("HURR DURR BUTTON PRESS ");
-  } else {
-    // turn LED off:
-    digitalWrite(ledPin, LOW);
+  if (buttonState == LOW && lastFrame == false) {
+    //changed from unpressed to pressed
+    delay(100);
+    lastFrame=true;
     digitalWrite(ledPin, HIGH);
-    Serial.println("no press");
+    Serial.println("hit pause key (pressed)");   
   }
+  
+  if (buttonState == HIGH && lastFrame == true) { 
+    //changed from pressed to unpressed
+    delay(100);
+    lastFrame=false;
+    digitalWrite(ledPin, LOW);     // turn LED off:
+    Serial.println("hit pause key (unpressed)");
+  }  
+  
 }
