@@ -1,5 +1,5 @@
 // Spotify Conductor project - an Arduino project for an emergency stop button to control & pause media playback
-#include <Keyboard.h>
+#include "HID-Project.h"
 
 //Set pins
 const int ledPin = 17;
@@ -18,6 +18,8 @@ void setup() {
   pinMode(buttonPin, INPUT);
   
   Serial.begin(9600);
+
+  Consumer.begin();
 }
 
 
@@ -30,7 +32,8 @@ void loop() {
     delay(100);
     lastFrame=true;
     digitalWrite(ledPin, HIGH);
-    Serial.println("hit pause key (pressed)");   
+    Serial.println("stop button actioned  (pressed)");   
+    Consumer.write(MEDIA_PLAY_PAUSE);
   }
   
   if (buttonState == HIGH && lastFrame == true) { 
@@ -38,7 +41,8 @@ void loop() {
     delay(100);
     lastFrame=false;
     digitalWrite(ledPin, LOW);     // turn LED off:
-    Serial.println("hit pause key (unpressed)");
+    Serial.println("stop button actioned  (unpressed)");
+    Consumer.write(MEDIA_PLAY_PAUSE);
   }  
   
 }
