@@ -36,7 +36,7 @@ If you fancy, you can create your own by following the above wiring diagram, get
 * 1 nnnΩ Resistor - Donated to me by my housemate = Free
 * Some Single Core blue Wire - Also donated from my housemate = Free
 * Some Black Shrink Wrap - Nicked from my housemate, didn't make sense to go buying loads ;) = Free
-* A pinch of perseverance, just to be cheesy <3
+
 __Overall cost of £9.06 & and a good few hours to get it all lovely__
 
 ## Author
@@ -54,5 +54,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 * Hat tip to [@KushCabbage](https://github.com/Kushcabbage) for massive support in this project.  From getting me started to being my electronics consultant. As this project was the first time I have dabbled with an Aurdino.
 * Thank you to [@orderedlist](https://github.com/orderedlist) for the minimal theme for GitHub Pages, found [here] (https://github.com/pages-themes/minimal).
 * [Instructables inspiration](https://www.instructables.com/id/USB-Volume-Control-and-Caps-Lock-LED-Simple-Cheap-/) - an instructibles guide for a aurdino volume control, a guide that I found helpful when creating this project
-* Creativity as this all started after me wanting to whack a button
+* This all started after me wanting to whack a button...
 
