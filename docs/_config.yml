@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: stopPause Button Project
+description: A small Arduino project for a big emergency stop button to pause music playback!
+logo: https://raw.githubusercontent.com/conorhennessy/stoppause/master/docs/StopPause_Logo.jpg
