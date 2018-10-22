@@ -2,10 +2,10 @@
 
 stopPause is a project that turns a classic emergency stop button into a whackable pause button as a media key.
 When the button is pressed a pause action is sent to the computer as a media key. The same media key is sent when button is reset.
-![Photo of the emergency stop button with end of the cable hidden)](https://raw.githubusercontent.com/conorhennessy/stoppause/master/docs/StopPause_Photo_1.jpg)
+![Photo of the emergency stop button with end of the cable hidden)](https://raw.githubusercontent.com/conorhennessy/stopPause/master/docs/StopPause_Photo1.jpg)
 
 Here it is in action...  [And a video can be found here](https://photos.app.goo.gl/1bEmfZ5BV29aJBT9A)
-![GIF of button being pressed with Spotify open, showing a song being paused](https://raw.githubusercontent.com/conorhennessy/stoppause/master/docs/StopPause.gif)
+![GIF of button being pressed with Spotify open, showing a song being paused](https://raw.githubusercontent.com/conorhennessy/stopPause/master/docs/StopPause.gif)
 
 
 ## How it's made
@@ -16,7 +16,7 @@ The differentiation of the button changes is useful in the future as I plan to a
 
 (Wiring diagram coming here soon ;) )
 
-![Photo of the inside of the emergency stop button with wiring and Aurdino visible](https://raw.githubusercontent.com/conorhennessy/stoppause/master/docs/StopPause_Photo_2.jpg)
+![Photo of the inside of the emergency stop button with wiring and Aurdino visible](https://raw.githubusercontent.com/conorhennessy/stopPause/master/docs/StopPause_Photo2.jpg)
 
 
 ## Create your own
