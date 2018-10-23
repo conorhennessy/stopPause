@@ -25,9 +25,6 @@ The differentiation of the button changes is useful in the future as I plan to a
 If you fancy, you can create your own by following the above wiring diagram, getting the parts listed below and nicking my code on here if you fancy :)
 
 ## Built With
-### Libraries
-
-[HID](https://github.com/NicoHood/HID) - The HID Library used for the extra media control required for this project
 
 ### Parts List  £££
 
@@ -39,6 +36,10 @@ If you fancy, you can create your own by following the above wiring diagram, get
 * Some Black Shrink Wrap - Nicked from my housemate, didn't make sense to go buying loads ;) = Free
 
 __Overall cost of £9.06 & and a good few hours to get it all lovely__
+
+### Libraries
+
+[HID](https://github.com/NicoHood/HID) - The HID Library used for the extra media control required for this project
 
 ## Author
 
