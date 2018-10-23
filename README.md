@@ -54,7 +54,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## Acknowledgments
 
 * Hat tip to [@KushCabbage](https://github.com/Kushcabbage) for massive support in this project.  From getting me started to being my electronics consultant. As this project was the first time I have dabbled with an arduino.
-* Thank you to [@orderedlist](https://github.com/orderedlist) for the minimal theme for GitHub Pages, found [here] (https://github.com/pages-themes/minimal).
+* Thank you to [@orderedlist](https://github.com/orderedlist) for the minimal theme for GitHub Pages, found [here](https://github.com/pages-themes/minimal).
 * [Instructables inspiration](https://www.instructables.com/id/USB-Volume-Control-and-Caps-Lock-LED-Simple-Cheap-/) - an instructibles guide for an arduino volume control, a guide that I found helpful when creating this project
 * This all started after me wanting to whack a button...
 
