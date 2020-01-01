@@ -1,7 +1,7 @@
 # About
 
 stopPause is a project that turns a classic emergency stop button into a whackable pause button as a media key.
-When the button is pressed a pause action is sent to the computer as a media key. The same media key is sent when button is reset.
+When the button is pressed a pause key is sent to the computer, conversely when the button is reset a pause key is sent.
 
 ![Photo of the emergency stop button with end of the cable hidden)](https://raw.githubusercontent.com/conorhennessy/stopPause/master/docs/StopPause_Photo1.jpg){:height="233px" :width="600px"}
 
@@ -12,9 +12,7 @@ __*Here it is in action...*__ [*And a video can be found here...*](https://photo
 
 ## How it's made  
 
-Using an arduino ATmega32U4 the stop button is wired to digital PIN 2 with 5v supplied by the 5v PIN. With each loop of code, the arduino checks for a change of voltage to see if the button has been pressed or reset. The state change is then compared to the previous state to understand when to send a pause action.
-
-The differentiation of the button changes is useful in the future as I plan to add a feature where if the button is depressed for 3 seconds the song is skipped and then next reset action is ignored, to ensure music is not paused again.
+Using an arduino ATmega32U4 the stop button is wired to digital PIN 2 with 5v supplied by the 5v PIN. With each loop of code, the arduino checks for a change of voltage to see if the button has been pressed or reset. The state change is then compared to the previous state to understand if to send a pause action.
 
 (Wiring diagram coming here soon ;) )
 
@@ -35,17 +33,16 @@ If you fancy, you can create your own by following the above wiring diagram, get
 * Some Single Core blue Wire - Also donated from my housemate = Free
 * Some Black Shrink Wrap - Nicked from my housemate, didn't make sense to go buying loads ;) = Free
 
-__Overall cost of £9.06 & and a good few hours to get it all lovely__
+__Overall cost of £9.06__
 
 ### Libraries
 
 [HID](https://github.com/NicoHood/HID) - The HID Library used for the extra media control required for this project
 
-## Author
+## Contributors
 
-* **Conor Hennessy** - *Creator* - [conorhennessy](https://github.com/conorhennessy)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project, if there are any!
+* **Conor Hennessy** - *Creator* - [@conorhennessy](https://github.com/conorhennessy)
+* **Alex Hockly** - *Contributor* - [@alhockly](https://github.com/alhockly)
 
 ## License
 
@@ -53,8 +50,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Acknowledgments
 
-* Hat tip to [@KushCabbage](https://github.com/Kushcabbage) for massive support in this project.  From getting me started to being my electronics consultant. As this project was the first time I have dabbled with an arduino.
-* Thank you to [@orderedlist](https://github.com/orderedlist) for the minimal theme for GitHub Pages, found [here](https://github.com/pages-themes/minimal).
-* [Instructables inspiration](https://www.instructables.com/id/USB-Volume-Control-and-Caps-Lock-LED-Simple-Cheap-/) - an instructibles guide for an arduino volume control, a guide that I found helpful when creating this project
+* Acknowledgment to [@alhockly](https://github.com/alhockly) for his massive support in this project.  From getting me started to being my electronics consultant to debugging help. As this project was the first time I have dabbled with an arduino.
+* [@orderedlist](https://github.com/orderedlist) for the minimal theme for GitHub Pages, found [here](https://github.com/pages-themes/minimal).
+* [Instructables inspiration](https://www.instructables.com/id/USB-Volume-Control-and-Caps-Lock-LED-Simple-Cheap-/) - an instructibles guide for an arduino volume control, a guide that I found as some inspiration when creating this project
 * This all started after me wanting to whack a button...
-
